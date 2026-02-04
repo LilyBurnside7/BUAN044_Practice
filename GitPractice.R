@@ -2,8 +2,8 @@
 
 #Load documentation from R's pre-loaded dataset
 #Documentation appears in the help pane on RStudio
-?mtcars
-
+?
+plot(mtcars$mpg ~ mtcars$wt)
 #Inspect the dataset in a view pane
 View(mtcars)
 
